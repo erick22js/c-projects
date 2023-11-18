@@ -1,0 +1,8 @@
+﻿  main.c
+  bus.c
+  cpu.c
+  emu.c
+  Gerando Código...
+d:\users\erick\documents\meus-projetos\c\snesemu\snesemu\src\snesemu\cpu_mem.h(17): warning C4716: 'cpuReadMem16': deve retornar um valor
+d:\users\erick\documents\meus-projetos\c\snesemu\snesemu\src\snesemu\cpu_mem.h(9): warning C4716: 'cpuReadMem8': deve retornar um valor
+  snesemu.vcxproj -> D:\Users\Erick\Documents\meus-projetos\c\snesemu\Debug\snesemu.exe
