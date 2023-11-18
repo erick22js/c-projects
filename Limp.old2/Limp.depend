@@ -1,0 +1,234 @@
+# depslib dependency file v1.0
+1673811098 source:c:\users\erick\documents\meusprojetos\c\limp\src\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Limp/limp.h"
+	"interpreter.h"
+	"LimpAssembler/limpasm.h"
+	"benchmark.h"
+
+1672627464 c:\users\erick\documents\meusprojetos\c\limp\src\limp\limp.h
+	"cpu/cpu.h"
+
+1675362660 c:\users\erick\documents\meusprojetos\c\limp\src\limp\cpu\cpu.h
+	"../api.h"
+	"../devices/bus.h"
+	"../devices/pci.h"
+	"register.h"
+	"mmu.h"
+	"alu.h"
+	"../isa/isa.h"
+	<time.h>
+
+1673636874 c:\users\erick\documents\meusprojetos\c\limp\src\limp\api.h
+
+1673535163 c:\users\erick\documents\meusprojetos\c\limp\src\limp\devices\bus.h
+	"../api.h"
+
+1673467769 c:\users\erick\documents\meusprojetos\c\limp\src\limp\devices\pci.h
+	"../api.h"
+
+1674511001 c:\users\erick\documents\meusprojetos\c\limp\src\limp\cpu\register.h
+	"../api.h"
+	"cpu.h"
+
+1675360080 c:\users\erick\documents\meusprojetos\c\limp\src\limp\cpu\mmu.h
+	"cpu.h"
+
+1673808771 c:\users\erick\documents\meusprojetos\c\limp\src\limp\cpu\alu.h
+	"../api.h"
+
+1673637848 c:\users\erick\documents\meusprojetos\c\limp\src\limp\isa\isa.h
+	"../cpu/cpu.h"
+	"template/dro.h"
+	"template/uro.h"
+	"template/ido.h"
+	"template/ifo.h"
+	"template/dfr.h"
+	"template/fro.h"
+	"template/fur.h"
+	"template/mio.h"
+	"util.h"
+	"set/mov.h"
+	"set/mem.h"
+	"set/arithmetic.h"
+	"set/flow.h"
+
+1673638214 c:\users\erick\documents\meusprojetos\c\limp\src\limp\isa\template\dro.h
+	"../isa.h"
+
+1672627464 c:\users\erick\documents\meusprojetos\c\limp\src\limp\isa\template\uro.h
+	"../isa.h"
+
+1672627464 c:\users\erick\documents\meusprojetos\c\limp\src\limp\isa\template\ido.h
+	"../isa.h"
+
+1672627464 c:\users\erick\documents\meusprojetos\c\limp\src\limp\isa\template\ifo.h
+	"../isa.h"
+
+1673638801 c:\users\erick\documents\meusprojetos\c\limp\src\limp\isa\template\dfr.h
+	"../isa.h"
+
+1672627464 c:\users\erick\documents\meusprojetos\c\limp\src\limp\isa\template\fro.h
+	"../isa.h"
+
+1673809142 c:\users\erick\documents\meusprojetos\c\limp\src\limp\isa\template\fur.h
+	"../isa.h"
+
+1673180063 c:\users\erick\documents\meusprojetos\c\limp\src\limp\isa\template\mio.h
+	"../isa.h"
+
+1672627464 c:\users\erick\documents\meusprojetos\c\limp\src\limp\isa\util.h
+	"../api.h"
+
+1672627464 c:\users\erick\documents\meusprojetos\c\limp\src\limp\isa\set\mov.h
+	"../template/dro.h"
+	"../template/mio.h"
+
+1672627464 c:\users\erick\documents\meusprojetos\c\limp\src\limp\isa\set\mem.h
+	"../template/dro.h"
+	"../template/mio.h"
+
+1675000155 c:\users\erick\documents\meusprojetos\c\limp\src\limp\isa\set\arithmetic.h
+	"../template/dro.h"
+	"../template/mio.h"
+
+1673804788 c:\users\erick\documents\meusprojetos\c\limp\src\interpreter.h
+	<stdio.h>
+	<string.h>
+	"limp/limp.h"
+
+1673094558 c:\users\erick\documents\meusprojetos\c\limp\src\limpassembler\limpasm.h
+	"laparser.h"
+	"laassembler.h"
+
+1673801880 c:\users\erick\documents\meusprojetos\c\limp\src\limpassembler\laparser.h
+	"laapi.h"
+	"lalexer.h"
+	"laparsemapcode.h"
+	"laerror.h"
+	"laexpression.h"
+
+1672627464 c:\users\erick\documents\meusprojetos\c\limp\src\limpassembler\laapi.h
+	"../Limp/api.h"
+
+1673630752 c:\users\erick\documents\meusprojetos\c\limp\src\limpassembler\lalexer.h
+	"lafile.h"
+	"ladirmkr.h"
+
+1673125992 c:\users\erick\documents\meusprojetos\c\limp\src\limpassembler\lafile.h
+	<stdio.h>
+	"laapi.h"
+
+1673311675 c:\users\erick\documents\meusprojetos\c\limp\src\limpassembler\ladirmkr.h
+	"laapi.h"
+
+1673315156 c:\users\erick\documents\meusprojetos\c\limp\src\limpassembler\laparsemapcode.h
+	"laapi.h"
+	"ladynamicarray.h"
+	"ladictionary.h"
+	"laisadtb.h"
+
+1672847286 c:\users\erick\documents\meusprojetos\c\limp\src\limpassembler\ladynamicarray.h
+	<stdio.h>
+	<stdlib.h>
+	"laapi.h"
+
+1673800603 c:\users\erick\documents\meusprojetos\c\limp\src\limpassembler\ladictionary.h
+	<stdio.h>
+	<stdlib.h>
+	"laapi.h"
+
+1673798426 c:\users\erick\documents\meusprojetos\c\limp\src\limpassembler\laisadtb.h
+	"laapi.h"
+	"isadtb/isadtb01.h"
+	"isadtb/isadtb02.h"
+	"isadtb/isadtb03.h"
+	"isadtb/isadtb04.h"
+
+1673198847 c:\users\erick\documents\meusprojetos\c\limp\src\limpassembler\isadtb\isadtb01.h
+	"template.h"
+
+1673198851 c:\users\erick\documents\meusprojetos\c\limp\src\limpassembler\isadtb\template.h
+
+1673632015 c:\users\erick\documents\meusprojetos\c\limp\src\limpassembler\isadtb\isadtb02.h
+	"template.h"
+
+1674999666 c:\users\erick\documents\meusprojetos\c\limp\src\limpassembler\isadtb\isadtb03.h
+	"template.h"
+
+1673353482 c:\users\erick\documents\meusprojetos\c\limp\src\limpassembler\laerror.h
+	<setjmp.h>
+	"laapi.h"
+
+1673812335 c:\users\erick\documents\meusprojetos\c\limp\src\limpassembler\laexpression.h
+	"latokener.h"
+	"laisaenc.h"
+	"laparsemapcode.h"
+	"laparser.h"
+
+1673138514 c:\users\erick\documents\meusprojetos\c\limp\src\limpassembler\latokener.h
+	<string.h>
+	"lalexer.h"
+	"latokens.h"
+	"latkrdata.h"
+	"laisaenc.h"
+
+1673169717 c:\users\erick\documents\meusprojetos\c\limp\src\limpassembler\latokens.h
+	<stdio.h>
+	"lalexer.h"
+
+1673312830 c:\users\erick\documents\meusprojetos\c\limp\src\limpassembler\latkrdata.h
+	<string.h>
+	"laapi.h"
+	"lalinkedlist.h"
+
+1672792398 c:\users\erick\documents\meusprojetos\c\limp\src\limpassembler\lalinkedlist.h
+	<stdio.h>
+	<stdlib.h>
+	"laapi.h"
+
+1673802763 c:\users\erick\documents\meusprojetos\c\limp\src\limpassembler\laisaenc.h
+	<string.h>
+	"laisadtb.h"
+	"latokens.h"
+
+1673353210 c:\users\erick\documents\meusprojetos\c\limp\src\limpassembler\laassembler.h
+	"lacompiler.h"
+
+1673280577 c:\users\erick\documents\meusprojetos\c\limp\src\limpassembler\lacompiler.h
+	"laisaenc.h"
+	"laparser.h"
+	"lawriter.h"
+
+1673125812 c:\users\erick\documents\meusprojetos\c\limp\src\limpassembler\lawriter.h
+	"lafile.h"
+
+1673462079 c:\users\erick\documents\meusprojetos\c\limp\src\benchmark.h
+	"time.h"
+
+1673535139 source:c:\users\erick\documents\meusprojetos\c\limp\src\limp\devices\bus.c
+	"bus.h"
+
+1675000126 source:c:\users\erick\documents\meusprojetos\c\limp\src\limp\isa\isa.c
+	"isa.h"
+
+1673805206 source:c:\users\erick\documents\meusprojetos\c\limp\src\limp\cpu\cpu.c
+	"cpu.h"
+
+1673464072 source:c:\users\erick\documents\meusprojetos\c\limp\src\limp\cpu\register.c
+	"register.h"
+
+1675360971 source:c:\users\erick\documents\meusprojetos\c\limp\src\limp\cpu\mmu.c
+	"mmu.h"
+
+1673467774 source:c:\users\erick\documents\meusprojetos\c\limp\src\limp\devices\pci.c
+	"pci.h"
+
+1673810659 c:\users\erick\documents\meusprojetos\c\limp\src\limp\isa\set\flow.h
+	"../template/ido.h"
+	"../../cpu/alu.h"
+
+1673810926 c:\users\erick\documents\meusprojetos\c\limp\src\limpassembler\isadtb\isadtb04.h
+	"template.h"
+

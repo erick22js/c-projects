@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Limp" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Limp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Limp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="src/LimpAssembler/isadtb/isadtb01.h" />
+		<Unit filename="src/LimpAssembler/isadtb/isadtb02.h" />
+		<Unit filename="src/LimpAssembler/isadtb/isadtb03.h" />
+		<Unit filename="src/LimpAssembler/isadtb/isadtb04.h" />
+		<Unit filename="src/LimpAssembler/isadtb/template.h" />
+		<Unit filename="src/LimpAssembler/laapi.h" />
+		<Unit filename="src/LimpAssembler/laassembler.h" />
+		<Unit filename="src/LimpAssembler/lacompiler.h" />
+		<Unit filename="src/LimpAssembler/ladictionary.h" />
+		<Unit filename="src/LimpAssembler/ladirmkr.h" />
+		<Unit filename="src/LimpAssembler/ladynamicarray.h" />
+		<Unit filename="src/LimpAssembler/laerror.h" />
+		<Unit filename="src/LimpAssembler/laexpression.h" />
+		<Unit filename="src/LimpAssembler/lafile.h" />
+		<Unit filename="src/LimpAssembler/laisadtb.h" />
+		<Unit filename="src/LimpAssembler/laisaenc.h" />
+		<Unit filename="src/LimpAssembler/lalexer.h" />
+		<Unit filename="src/LimpAssembler/lalinkedlist.h" />
+		<Unit filename="src/LimpAssembler/laparsemapcode.h" />
+		<Unit filename="src/LimpAssembler/laparser.h" />
+		<Unit filename="src/LimpAssembler/latkrdata.h" />
+		<Unit filename="src/LimpAssembler/latokener.h" />
+		<Unit filename="src/LimpAssembler/latokens.h" />
+		<Unit filename="src/LimpAssembler/lawriter.h" />
+		<Unit filename="src/LimpAssembler/limpasm.h" />
+		<Unit filename="src/Limp/api.h" />
+		<Unit filename="src/Limp/cpu/alu.h" />
+		<Unit filename="src/Limp/cpu/cpu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Limp/cpu/cpu.h" />
+		<Unit filename="src/Limp/cpu/mmu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Limp/cpu/mmu.h" />
+		<Unit filename="src/Limp/cpu/register.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Limp/cpu/register.h" />
+		<Unit filename="src/Limp/devices/bus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Limp/devices/bus.h" />
+		<Unit filename="src/Limp/devices/pci.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Limp/devices/pci.h" />
+		<Unit filename="src/Limp/isa/isa.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Limp/isa/isa.h" />
+		<Unit filename="src/Limp/isa/set/arithmetic.h" />
+		<Unit filename="src/Limp/isa/set/flow.h" />
+		<Unit filename="src/Limp/isa/set/mem.h" />
+		<Unit filename="src/Limp/isa/set/mov.h" />
+		<Unit filename="src/Limp/isa/template/dfr.h" />
+		<Unit filename="src/Limp/isa/template/dro.h" />
+		<Unit filename="src/Limp/isa/template/fro.h" />
+		<Unit filename="src/Limp/isa/template/fur.h" />
+		<Unit filename="src/Limp/isa/template/ido.h" />
+		<Unit filename="src/Limp/isa/template/ifo.h" />
+		<Unit filename="src/Limp/isa/template/mio.h" />
+		<Unit filename="src/Limp/isa/template/uro.h" />
+		<Unit filename="src/Limp/isa/util.h" />
+		<Unit filename="src/Limp/limp.h" />
+		<Unit filename="src/benchmark.h" />
+		<Unit filename="src/interpreter.h" />
+		<Unit filename="src/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
