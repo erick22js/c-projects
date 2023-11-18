@@ -1,0 +1,40 @@
+
+############################################################
+
+==== SYNTAX
+
+@ Instructions
+
+
+Format:
+
+	MNEMONIC arg0, arg1, arg2
+
+
+Arg.Formats:
+
+* AF0: MNE
+* AF1: MNE opr
+* AF2: MNE dest, src
+* AF3: MNE destBase, src, destIndex
+
+
+Arg.Types:
+
+* EAX; EDX; ECX; EBX; EFP; ESP; ESS; ESD;
+  AX; DX; CX; BX; FP; SP; SS; SD;
+  AL; AH; DL; DH; CL; CH; BL; BH
+* r8: AL, AH, DL, DH, CL, CH, BL, BH
+* r16: AX, DX, CX, BX, FP, SP, SS, SD
+* r32: EAX, EDX, ECX, EBX, EFP, ESP, ESS, ESD
+* r32/16: r32, r16
+* reg: r32/r16, r8
+* imm8
+* imm16
+* imm32
+
+
+
+############################################################
+
+==== MNEMONICS

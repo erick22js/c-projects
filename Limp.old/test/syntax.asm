@@ -1,0 +1,7 @@
+; comentário
+// Comentário
+/* Comentário */
+
+
+ProcedimentoPrincipal:
+	
