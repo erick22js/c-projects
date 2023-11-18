@@ -1,0 +1,115 @@
+#include "cpu.h"
+
+
+SMInstruction sm_instructions[256] = {
+	
+	[0x00] = {0, &SM_Proc_notimplemented, "<NOTIMP>", 0},
+	
+	[0x08] = {ADRM_IMPLIED, &SM_Proc_php, "PHP", 3},
+	
+	[0x0B] = {ADRM_IMPLIED, &SM_Proc_phd, "PHD", 4},
+	
+	[0x18] = {ADRM_IMPLIED, &SM_Proc_clc, "CLC", 2},
+	
+	[0x1B] = {ADRM_IMPLIED, &SM_Proc_tcs, "TCS", 2},
+	
+	[0x28] = {ADRM_IMPLIED, &SM_Proc_plp, "PLP", 4},
+	
+	[0x2B] = {ADRM_IMPLIED, &SM_Proc_pld, "PLD", 5},
+	
+	[0x3B] = {ADRM_IMPLIED, &SM_Proc_tsc, "TSC", 2},
+	
+	[0x48] = {ADRM_IMPLIED, &SM_Proc_pha, "PHA", 3},
+	
+	[0x4B] = {ADRM_IMPLIED, &SM_Proc_phk, "PHK", 3},
+	
+	[0x5A] = {ADRM_IMPLIED, &SM_Proc_phy, "PHY", 3},
+	
+	[0x5B] = {ADRM_IMPLIED, &SM_Proc_tcd, "TCD", 2},
+	
+	[0x62] = {ADRM_IMPLIED, &SM_Proc_per, "PER", 6},
+	
+	[0x68] = {ADRM_IMPLIED, &SM_Proc_pla, "PLA", 4},
+	
+	[0x78] = {ADRM_IMPLIED, &SM_Proc_sei, "SEI", 2},
+	
+	[0x7A] = {ADRM_IMPLIED, &SM_Proc_ply, "PLY", 4},
+	[0x7B] = {ADRM_IMPLIED, &SM_Proc_tdc, "TDC", 2},
+	
+	[0x81] = {ADRM_DIRECTPAGE_X_INDEXED_INDIRECT /* Effective Address */, &SM_Proc_sta, "STA", 6},
+	
+	[0x83] = {ADRM_STACKPOINTER_RELATIVE /* Effective Address */, &SM_Proc_sta, "STA", 4},
+	
+	[0x85] = {ADRM_DIRECTPAGE /* Effective Address */, &SM_Proc_sta, "STA", 3},
+	[0x86] = {ADRM_DIRECTPAGE /* Effective Address */, &SM_Proc_stx, "STX", 3},
+	[0x87] = {ADRM_DIRECTPAGE_INDIRECT_LONG /* Effective Address */, &SM_Proc_sta, "STA", 6},
+	
+	[0x8A] = {ADRM_IMPLIED, &SM_Proc_txa, "TXA", 2},
+	[0x8B] = {ADRM_IMPLIED, &SM_Proc_phb, "PHB", 3},
+	[0x8C] = {ADRM_ABSOLUTEDBR /* Effective Address */, &SM_Proc_sty, "STY", 4},
+	[0x8D] = {ADRM_ABSOLUTEDBR /* Effective Address */, &SM_Proc_sta, "STA", 4},
+	[0x8E] = {ADRM_ABSOLUTEDBR /* Effective Address */, &SM_Proc_stx, "STX", 4},
+	[0x8F] = {ADRM_ABSOLUTE_LONG /* Effective Address */, &SM_Proc_sta, "STA", 5},
+	
+	[0x91] = {ADRM_DIRECTPAGE_INDIRECT_Y_INDEXED /* Effective Address */, &SM_Proc_sta, "STA", 6},
+	[0x92] = {ADRM_DIRECTPAGE_INDIRECT /* Effective Address */, &SM_Proc_sta, "STA", 5},
+	[0x93] = {ADRM_STACKPOINTER_RELATIVE_INDIRECT_Y_INDEXED /* Effective Address */, &SM_Proc_sta, "STA", 7},
+	
+	[0x95] = {ADRM_DIRECTPAGE_X_INDEXED /* Effective Address */, &SM_Proc_sta, "STA", 4},
+	[0x96] = {ADRM_DIRECTPAGE_Y_INDEXED /* Effective Address */, &SM_Proc_stx, "STX", 4},
+	[0x97] = {ADRM_DIRECTPAGE_INDIRECT_LONG_Y_INDEXED /* Effective Address */, &SM_Proc_sta, "STA", 6},
+	[0x98] = {ADRM_IMPLIED, &SM_Proc_tya, "TYA", 2},
+	[0x99] = {ADRM_ABSOLUTE_Y_INDEXED /* Effective Address */, &SM_Proc_sta, "STA", 5},
+	[0x9A] = {ADRM_IMPLIED, &SM_Proc_txs, "TXS", 2},
+	[0x9B] = {ADRM_IMPLIED, &SM_Proc_txy, "TXY", 2},
+	
+	[0x9D] = {ADRM_ABSOLUTE_X_INDEXED /* Effective Address */, &SM_Proc_sta, "STA", 5},
+	
+	[0x9F] = {ADRM_ABSOLUTE_LONG_X_INDEXED /* Effective Address */, &SM_Proc_sta, "STA", 5},
+	
+	[0xA0] = {ADRM_IMMEDIATE, &SM_Proc_ldy, "LDY", 2},
+	[0xA1] = {ADRM_DIRECTPAGE_X_INDEXED_INDIRECT, &SM_Proc_lda, "LDA", 6},
+	[0xA2] = {ADRM_IMMEDIATE, &SM_Proc_ldx, "LDX", 2},
+	[0xA3] = {ADRM_STACKPOINTER_RELATIVE, &SM_Proc_lda, "LDA", 4},
+	[0xA4] = {ADRM_DIRECTPAGE, &SM_Proc_ldy, "LDY", 3},
+	[0xA5] = {ADRM_DIRECTPAGE, &SM_Proc_lda, "LDA", 3},
+	[0xA6] = {ADRM_DIRECTPAGE, &SM_Proc_ldx, "LDX", 3},
+	[0xA7] = {ADRM_DIRECTPAGE_INDIRECT_LONG, &SM_Proc_lda, "LDA", 6},
+	[0xA8] = {ADRM_IMPLIED, &SM_Proc_tay, "TAY", 2},
+	[0xA9] = {ADRM_IMMEDIATE, &SM_Proc_lda, "LDA", 2},
+	[0xAA] = {ADRM_IMPLIED, &SM_Proc_tax, "TAX", 2},
+	[0xAB] = {ADRM_IMPLIED, &SM_Proc_plb, "PLB", 4},
+	[0xAC] = {ADRM_ABSOLUTEDBR, &SM_Proc_ldy, "LDY", 4},
+	[0xAD] = {ADRM_ABSOLUTEDBR, &SM_Proc_lda, "LDA", 4},
+	[0xAE] = {ADRM_ABSOLUTEDBR, &SM_Proc_ldx, "LDX", 4},
+	[0xAF] = {ADRM_ABSOLUTE_LONG, &SM_Proc_lda, "LDA", 5},
+	
+	[0xB1] = {ADRM_DIRECTPAGE_Y_INDEXED, &SM_Proc_lda, "LDA", 5},
+	[0xB2] = {ADRM_DIRECTPAGE_INDIRECT, &SM_Proc_lda, "LDA", 5},
+	[0xB3] = {ADRM_STACKPOINTER_RELATIVE_INDIRECT_Y_INDEXED, &SM_Proc_lda, "LDA", 7},
+	[0xB4] = {ADRM_DIRECTPAGE_X_INDEXED, &SM_Proc_ldy, "LDY", 4},
+	[0xB5] = {ADRM_DIRECTPAGE_X_INDEXED, &SM_Proc_lda, "LDA", 4},
+	[0xB6] = {ADRM_DIRECTPAGE_Y_INDEXED, &SM_Proc_ldx, "LDX", 4},
+	[0xB7] = {ADRM_DIRECTPAGE_INDIRECT_LONG_Y_INDEXED, &SM_Proc_lda, "LDA", 6},
+	
+	[0xB9] = {ADRM_ABSOLUTE_Y_INDEXED, &SM_Proc_lda, "LDA", 4},
+	[0xBA] = {ADRM_IMPLIED, &SM_Proc_tsx, "TSX", 2},
+	[0xBB] = {ADRM_IMPLIED, &SM_Proc_tyx, "TYX", 2},
+	[0xBC] = {ADRM_ABSOLUTE_X_INDEXED, &SM_Proc_ldy, "LDY", 4},
+	[0xBD] = {ADRM_ABSOLUTE_X_INDEXED, &SM_Proc_lda, "LDA", 4},
+	[0xBE] = {ADRM_ABSOLUTE_Y_INDEXED, &SM_Proc_ldx, "LDX", 4},
+	
+	[0xC2] = {ADRM_IMPLIED, &SM_Proc_rep, "REP", 3},
+	
+	[0xD4] = {ADRM_IMPLIED, &SM_Proc_pei, "PEI", 6},
+	
+	[0xDA] = {ADRM_IMPLIED, &SM_Proc_phx, "PHX", 3},
+	
+	[0xBF] = {ADRM_ABSOLUTE_LONG_X_INDEXED, &SM_Proc_lda, "LDA", 5},
+	
+	[0xF4] = {ADRM_IMPLIED, &SM_Proc_pea, "PEA", 5},
+	
+	[0xFA] = {ADRM_IMPLIED, &SM_Proc_plx, "PLX", 4},
+	[0xFB] = {ADRM_IMPLIED, &SM_Proc_xce, "XCE", 2},
+	
+};

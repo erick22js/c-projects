@@ -1,0 +1,15 @@
+
+ Emulation
+	
+	# Cycles Emulating
+		- Instructions
+		- Devices operations
+	
+	# CPU
+		- Instruction Set
+	
+	# SPC
+		- Instruction Set
+	
+	# BUS
+		- 
