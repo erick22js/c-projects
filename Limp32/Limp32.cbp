@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Limp32" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Limp32" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Limp32" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="src/limp32/bus.h" />
+		<Unit filename="src/limp32/cpu/cpu.h" />
+		<Unit filename="src/limp32/cpu/flag.h" />
+		<Unit filename="src/limp32/cpu/memory.h" />
+		<Unit filename="src/limp32/cpu/mmu.h" />
+		<Unit filename="src/limp32/cpu/register.h" />
+		<Unit filename="src/limp32/dcon.h" />
+		<Unit filename="src/limp32/limp32.h" />
+		<Unit filename="src/limp32/util/l_jmp.h" />
+		<Unit filename="src/limp32/util/l_thread.h" />
+		<Unit filename="src/limp32/util/l_time.h" />
+		<Unit filename="src/limp32/util/l_type.h" />
+		<Unit filename="src/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/test.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

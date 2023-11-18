@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1668461601 source:c:\users\erick\documents\meusprojetos\c\limp32\src\main.c
+	"test.h"
+
+1667258664 c:\users\erick\documents\meusprojetos\c\limp32\src\limp32\limp32.h
+	"cpu/cpu.h"
+
+1667170525 c:\users\erick\documents\meusprojetos\c\limp32\src\limp32\cpu.h
+	"util/l_type.h"
+	"register.h"
+	"flag.h"
+	"util/l_time.h"
+	"util/l_thread.h"
+
+1667153018 c:\users\erick\documents\meusprojetos\c\limp32\src\limp32\l_type.h
+
+1667155318 c:\users\erick\documents\meusprojetos\c\limp32\src\limp32\register.h
+	"cpu.h"
+
+1667156262 c:\users\erick\documents\meusprojetos\c\limp32\src\limp32\flag.h
+	"cpu.h"
+
+1667174453 c:\users\erick\documents\meusprojetos\c\limp32\src\limp32\util\l_type.h
+
+1667174538 c:\users\erick\documents\meusprojetos\c\limp32\src\limp32\util\l_thread.h
+	<pthread.h>
+	"l_type.h"
+
+1667258448 c:\users\erick\documents\meusprojetos\c\limp32\src\limp32\util\l_time.h
+	<windows.h>
+	"l_type.h"
+
+1668459567 c:\users\erick\documents\meusprojetos\c\limp32\src\limp32\cpu\cpu.h
+	"../util/l_type.h"
+	"../bus.h"
+	"../dcon.h"
+	"../util/l_time.h"
+	"../util/l_thread.h"
+	"register.h"
+	"flag.h"
+	"memory.h"
+
+1667517359 c:\users\erick\documents\meusprojetos\c\limp32\src\limp32\cpu\register.h
+	"cpu.h"
+
+1667517599 c:\users\erick\documents\meusprojetos\c\limp32\src\limp32\cpu\flag.h
+	"cpu.h"
+
+1667422776 c:\users\erick\documents\meusprojetos\c\limp32\src\limp32\bus.h
+	"cpu/cpu.h"
+
+1667261236 c:\users\erick\documents\meusprojetos\c\limp32\src\limp32\dcon.h
+	"cpu/cpu.h"
+
+1668291813 c:\users\erick\documents\meusprojetos\c\limp32\src\limp32\cpu\memory.h
+	"cpu.h"
+	"register.h"
+	"mmu.h"
+
+1667409041 c:\users\erick\documents\meusprojetos\c\limp32\src\limp32\cpu\mmu.h
+	"cpu.h"
+	"memory.h"
+
+1668460154 c:\users\erick\documents\meusprojetos\c\limp32\src\test.h
+	<stdio.h>
+	<stdlib.h>
+	"limp32/limp32.h"
+	"limp32/util/l_jmp.h"
+
+1668461886 c:\users\erick\documents\meusprojetos\c\limp32\src\limp32\util\l_jmp.h
+	<setjmp.h>
+	"l_type.h"
+

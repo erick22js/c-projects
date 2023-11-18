@@ -1,0 +1,1029 @@
+# depslib dependency file v1.0
+1667765586 source:c:\users\erick\documents\meusprojetos\c\project_survival\main.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL2/SDL.h>
+	<GL/glew.h>
+	<SDL2/SDL_opengl.h>
+
+1638246272 c:\sdl2\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+
+1638246272 c:\sdl2\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\begin_code.h
+
+1638246272 c:\sdl2\include\sdl2\close_code.h
+
+1638246272 c:\sdl2\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501501581 c:\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1638246272 c:\sdl2\include\sdl2\sdl_opengl.h
+	"SDL_config.h"
+	"gl_mangle.h"
+	<windows.h>
+	"SDL_opengl_glext.h"
+
+1638246272 c:\sdl2\include\sdl2\sdl_opengl_glext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1670963914 source:c:\users\erick\documents\meusprojetos\c\project_survival\src\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"dothen/dothen.h"
+
+1670451763 c:\users\erick\documents\meusprojetos\c\project_survival\src\dothen\display\context.h
+	<GL/glew.h>
+	<SDL2/SDL_opengl.h>
+	"window.h"
+
+1670448216 c:\users\erick\documents\meusprojetos\c\project_survival\src\dothen\display\window.h
+	<SDL2/SDL.h>
+	"../api.h"
+
+1670445650 c:\users\erick\documents\meusprojetos\c\project_survival\src\dothen\api.h
+
+1670451837 source:c:\users\erick\documents\meusprojetos\c\project_survival\src\dothen\display\context.cpp
+	"context.h"
+
+1670447048 source:c:\users\erick\documents\meusprojetos\c\project_survival\src\dothen\display\window.cpp
+	"window.h"
+
+1670448616 source:c:\users\erick\documents\meusprojetos\c\project_survival\src\dothen\dothen.cpp
+	"dothen.h"
+
+1670600987 c:\users\erick\documents\meusprojetos\c\project_survival\src\dothen\dothen.h
+	"api.h"
+	"renderer/renderer2d.h"
+	"renderer/renderer3d.h"
+	"event/event.h"
+
+1670451533 c:\users\erick\documents\meusprojetos\c\project_survival\src\dothen\renderer\renderer2d.h
+	"renderer.h"
+
+1670451480 c:\users\erick\documents\meusprojetos\c\project_survival\src\dothen\renderer\renderer.h
+	"../display/context.h"
+
+1670451554 c:\users\erick\documents\meusprojetos\c\project_survival\src\dothen\renderer\renderer3d.h
+	"renderer.h"
+
+1670451509 source:c:\users\erick\documents\meusprojetos\c\project_survival\src\dothen\renderer\renderer.cpp
+	"renderer.h"
+
+1670451542 source:c:\users\erick\documents\meusprojetos\c\project_survival\src\dothen\renderer\renderer2d.cpp
+	"renderer2d.h"
+
+1670451559 source:c:\users\erick\documents\meusprojetos\c\project_survival\src\dothen\renderer\renderer3d.cpp
+	"renderer3d.h"
+
+1670605331 c:\users\erick\documents\meusprojetos\c\project_survival\src\dothen\event\event.h
+	"inputhanddler.h"
+
+1670600484 c:\users\erick\documents\meusprojetos\c\project_survival\src\dothen\event\inputhanddler.h
+	<SDL2/SDL.h>
+	"../api.h"
+
+1670605419 source:c:\users\erick\documents\meusprojetos\c\project_survival\src\dothen\event\event.cpp
+	"event.h"
+
+1670960924 source:c:\users\erick\documents\meusprojetos\c\project_survival\src\dothen\math\vector2.cpp
+	"vector2.h"
+
+1670960868 c:\users\erick\documents\meusprojetos\c\project_survival\src\dothen\math\vector2.h
+	"math.h"
+
+1670606628 c:\users\erick\documents\meusprojetos\c\project_survival\src\dothen\math\math.h
+	"../api.h"
+	"vector2.h"
+	"vector3.h"
+	"matrix3.h"
+	"matrix4.h"
+
+1670961064 c:\users\erick\documents\meusprojetos\c\project_survival\src\dothen\math\vector3.h
+	"math.h"
+
+1670606648 c:\users\erick\documents\meusprojetos\c\project_survival\src\dothen\math\matrix3.h
+	"math.h"
+
+1670606650 c:\users\erick\documents\meusprojetos\c\project_survival\src\dothen\math\matrix4.h
+	"math.h"
+
+1670961140 source:c:\users\erick\documents\meusprojetos\c\project_survival\src\dothen\math\vector3.cpp
+	"vector3.h"
+
+1670963472 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\vec2.hpp
+	"./ext/vector_float2.hpp"
+	"./ext/vector_int2.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_bool2.hpp
+	"../detail/type_vec2.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_vec2.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\qualifier.hpp
+	"setup.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+	<CL/sycl.hpp>
+	<limits>
+	<cstdint>
+	<type_traits>
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\simd\platform.h
+	<cuda.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+	"neon.h"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\simd\neon.h
+	<arm_neon.h>
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\_swizzle.hpp
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\_swizzle_func.hpp
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_vec2.inl
+	"./compute_vector_relational.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\compute_vector_relational.hpp
+	"setup.hpp"
+	<limits>
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_bool2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_float2.hpp
+	"../detail/type_vec2.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_float2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_double2.hpp
+	"../detail/type_vec2.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_double2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_int2.hpp
+	"../detail/type_vec2.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_int2_sized.hpp
+	"../ext/vector_int2.hpp"
+	"../ext/scalar_int_sized.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\scalar_int_sized.hpp
+	"../detail/setup.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_uint2.hpp
+	"../detail/type_vec2.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_uint2_sized.hpp
+	"../ext/vector_uint2.hpp"
+	"../ext/scalar_uint_sized.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\scalar_uint_sized.hpp
+	"../detail/setup.hpp"
+
+1670963576 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\vec3.hpp
+	"./ext/vector_float3.hpp"
+	"./ext/vector_int3.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_bool3.hpp
+	"../detail/type_vec3.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_vec3.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_vec3.inl
+	"compute_vector_relational.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_bool3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_float3.hpp
+	"../detail/type_vec3.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_float3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_double3.hpp
+	"../detail/type_vec3.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_double3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_int3.hpp
+	"../detail/type_vec3.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_int3_sized.hpp
+	"../ext/vector_int3.hpp"
+	"../ext/scalar_int_sized.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_uint3.hpp
+	"../detail/type_vec3.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_uint3_sized.hpp
+	"../ext/vector_uint3.hpp"
+	"../ext/scalar_uint_sized.hpp"
+
+1670963583 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\vec4.hpp
+	"./ext/vector_float4.hpp"
+	"./ext/vector_int4.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_bool4.hpp
+	"../detail/type_vec4.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_vec4.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_vec4.inl
+	"compute_vector_relational.hpp"
+	"type_vec4_simd.inl"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_vec4_simd.inl
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_bool4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_float4.hpp
+	"../detail/type_vec4.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_float4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_double4.hpp
+	"../detail/type_vec4.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_double4_precision.hpp
+	"../detail/setup.hpp"
+	"../detail/type_vec4.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_int4.hpp
+	"../detail/type_vec4.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_int4_sized.hpp
+	"../ext/vector_int4.hpp"
+	"../ext/scalar_int_sized.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_uint4.hpp
+	"../detail/type_vec4.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\vector_uint4_sized.hpp
+	"../ext/vector_uint4.hpp"
+	"../ext/scalar_uint_sized.hpp"
+
+1670963590 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\mat2x2.hpp
+	"./ext/matrix_float2x2.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_double2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_mat2x2.hpp
+	"type_vec2.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_mat2x2.inl
+	"../matrix.hpp"
+
+1670963648 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\matrix.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat3x3.hpp"
+	"mat4x4.hpp"
+	"detail/func_matrix.inl"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\mat2x3.hpp
+	"./ext/matrix_double2x3.hpp"
+	"./ext/matrix_double2x3_precision.hpp"
+	"./ext/matrix_float2x3.hpp"
+	"./ext/matrix_float2x3_precision.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_double2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_mat2x3.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_mat2x3.inl
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_double2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_float2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_float2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\mat2x4.hpp
+	"./ext/matrix_double2x4.hpp"
+	"./ext/matrix_double2x4_precision.hpp"
+	"./ext/matrix_float2x4.hpp"
+	"./ext/matrix_float2x4_precision.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_double2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_mat2x4.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_mat2x4.inl
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_double2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_float2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_float2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\mat3x2.hpp
+	"./ext/matrix_double3x2.hpp"
+	"./ext/matrix_double3x2_precision.hpp"
+	"./ext/matrix_float3x2.hpp"
+	"./ext/matrix_float3x2_precision.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_double3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_mat3x2.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_mat3x2.inl
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_double3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_float3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_float3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1670963595 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\mat3x3.hpp
+	"./ext/matrix_float3x3.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_double3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_mat3x3.hpp
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_mat3x3.inl
+	"../matrix.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_double3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_float3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_float3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\mat3x4.hpp
+	"./ext/matrix_double3x4.hpp"
+	"./ext/matrix_double3x4_precision.hpp"
+	"./ext/matrix_float3x4.hpp"
+	"./ext/matrix_float3x4_precision.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_double3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_mat3x4.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_mat3x4.inl
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_double3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_float3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_float3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\mat4x2.hpp
+	"./ext/matrix_double4x2.hpp"
+	"./ext/matrix_double4x2_precision.hpp"
+	"./ext/matrix_float4x2.hpp"
+	"./ext/matrix_float4x2_precision.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_double4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_mat4x2.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_mat4x2.inl
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_double4x2_precision.hpp
+	"../detail/type_mat4x2.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_float4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_float4x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\mat4x3.hpp
+	"./ext/matrix_double4x3.hpp"
+	"./ext/matrix_double4x3_precision.hpp"
+	"./ext/matrix_float4x3.hpp"
+	"./ext/matrix_float4x3_precision.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_double4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_mat4x3.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_mat4x3.inl
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_double4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_float4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_float4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1670963601 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\mat4x4.hpp
+	"./ext/matrix_float4x4.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_double4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_mat4x4.hpp
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_mat4x4.inl
+	"../matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_mat4x4_simd.inl
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_double4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_float4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_float4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\geometric.hpp
+	"detail/type_vec3.hpp"
+	"detail/func_geometric.inl"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\func_geometric.inl
+	"../exponential.hpp"
+	"../common.hpp"
+	"func_geometric_simd.inl"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\exponential.hpp
+	"detail/type_vec1.hpp"
+	"detail/type_vec2.hpp"
+	"detail/type_vec3.hpp"
+	"detail/type_vec4.hpp"
+	<cmath>
+	"detail/func_exponential.inl"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_vec1.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\type_vec1.inl
+	"./compute_vector_relational.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\func_exponential.inl
+	"../vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\vector_relational.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"detail/func_vector_relational.inl"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\func_vector_relational.inl
+	"func_vector_relational_simd.inl"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\func_vector_relational_simd.inl
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\_vectorize.hpp
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\simd\exponential.h
+	"platform.h"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\common.hpp
+	"detail/qualifier.hpp"
+	"detail/_fixes.hpp"
+	"detail/func_common.inl"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\func_common.inl
+	"../vector_relational.hpp"
+	"compute_common.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\compute_common.hpp
+	"setup.hpp"
+	<limits>
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\simd\common.h
+	"platform.h"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\simd\geometric.h
+	"common.h"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"../geometric.hpp"
+	"../simd/matrix.h"
+	<cstring>
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\simd\matrix.h
+	"geometric.h"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_double2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_float2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1666798234 c:\users\erick\documents\meusprojetos\c\project_survival\include\glm\ext\matrix_float2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+

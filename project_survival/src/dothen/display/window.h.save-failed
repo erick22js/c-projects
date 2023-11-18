@@ -1,0 +1,15 @@
+#ifndef DOTHEN_RENDERER_WINDOW_H_INCLUDED
+#define DOTHEN_RENDERER_WINDOW_H_INCLUDED
+
+class DOTHENWindow{
+public:
+	
+	DOTHENWindow(){
+		
+	}
+	
+};
+
+
+
+#endif // DOTHEN_RENDERER_WINDOW_H_INCLUDED
